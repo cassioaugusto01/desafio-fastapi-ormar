@@ -2,13 +2,13 @@
 
 # Intruções
 
-$pip install -r requirements.txt
+pip install -r requirements.txt
 
 Configurar a conexão com o banco de dados em config.py
 
-$python cria_tabelas.py
+python cria_tabelas.py
 
-$uvicorn main:app
+uvicorn main:app
 
 
 ## Teste da API via Swagger
